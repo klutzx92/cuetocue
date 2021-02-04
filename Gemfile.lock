@@ -93,6 +93,7 @@ GEM
     nio4r (2.5.4)
     nokogiri (1.11.1-x86_64-darwin)
       racc (~> 1.4)
+    pg (1.2.3)
     puma (5.2.0)
       nio4r (~> 2.0)
     racc (1.5.2)
@@ -171,11 +172,12 @@ DEPENDENCIES
   byebug
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  pg
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.1)
   sass-rails (>= 6)
-  sqlite3 (~> 1.4)
+  sqlite3
   tzinfo-data
   web-console (>= 4.1.0)
 
