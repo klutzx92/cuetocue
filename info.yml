@@ -1,0 +1,20 @@
+project:
+  name: 'q2q'
+  owner: 'cs169'
+  teamId: '9'
+  identities:
+    pivotal:
+      url: 'https://www.pivotaltracker.com/n/projects/2487725'
+    heroku:
+      url: 'https://dashboard.heroku.com/apps/cuetocue'
+    travis:
+      url: 'https://travis-ci.org/github/klutzx92/cuetocue/builds'
+    codecov:
+      url: 'url'
+  members:
+    member1:
+      name: 'Faiz'
+      surname: 'Shamji' 
+      githubUsername: 'fshamji'
+      pivotalUsername: 'fshamji'
+      herokuEmail: 'fshamji@berkeley.edu'
