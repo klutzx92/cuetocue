@@ -39,8 +39,8 @@ script:
   - bundle exec rubocop -DESP
   - bundle exec rake
   - npm test
-  - cucumber
-  - rspec
+  - bundle exec cucumber
+  - bundle exec rspec
 
 # Pipe the coverage data to Code Climate
 after_script:
