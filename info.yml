@@ -9,8 +9,6 @@ project:
       url: 'https://dashboard.heroku.com/apps/cuetocue'
     travis:
       url: 'https://travis-ci.org/github/klutzx92/cuetocue/builds'
-    codecov:
-      url: 'url'
   members:
     member1:
       name: 'Faiz'
