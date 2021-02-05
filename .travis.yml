@@ -28,12 +28,17 @@ install:
   - bundle install --without production --path=${BUNDLE_PATH:-vendor/bundle}  # Install ruby gems, excluding production only gems such as unicorn (already present by default in Travis)
   - npm install                         # Install npm dependencies
   #- npm install karma-firefox-launcher codeclimate-test-reporter
+  - cucumber install
+  - rspec install
 
 # Setup the database
 before_script: bundle exec rake db:create db:migrate
 
 # Run the test suites
 script:
+  - bundle exec rubocop -DESP
+  - bundle exec rake
+  - npm test
   - cucumber
   - rspec
 
