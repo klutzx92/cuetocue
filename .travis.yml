@@ -36,7 +36,6 @@ before_script: bundle exec rake db:create db:migrate
 
 # Run the test suites
 script:
-  - bundle exec rubocop -DESP
   - bundle exec rake
   - npm test
   - bundle exec cucumber
