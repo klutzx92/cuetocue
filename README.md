@@ -29,3 +29,5 @@ Things you may want to cover:
 
 
 [![Build Status](https://travis-ci.com/klutzx92/cuetocue.svg?branch=master)](https://travis-ci.com/klutzx92/cuetocue)
+
+[![Bluejay Dashboard](https://img.shields.io/badge/bluejay-dashboard_9-blue.svg)](http://dashboard.bluejay.governify.io/dashboard/script/dashboardLoader.js?dashboardURL=https://reporter.bluejay.governify.io/api/v4/dashboards/tpa-CS169L-GH-klutzx92_cuetocue/main)
