@@ -3,12 +3,7 @@
     "coverage": {
       "/Users/timotiusvincent/Documents/cuetocue/spec/test_spec.rb": {
         "lines": [
-          1,
-          null,
-          1,
-          0,
-          null,
-          null
+          1
         ]
       },
       "/Users/timotiusvincent/Documents/cuetocue/spec/rails_helper.rb": {
@@ -374,6 +369,6 @@
         ]
       }
     },
-    "timestamp": 1612503228
+    "timestamp": 1612504279
   }
 }
